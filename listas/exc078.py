@@ -14,3 +14,4 @@ for posicao, numero in enumerate(numeros):
         pos_menor.append(posicao)
 print(f'O maior valor da lista é {max(numeros)}, nas posições {pos_maior}')
 print(f'O maior valor da lista é {min(numeros)}, nas posições {pos_menor}')
+print()
