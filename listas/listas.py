@@ -1,4 +1,6 @@
 import os
+
+valores = []
 os.system('clear')
 num = [2, 5, 9, 1]
 num[2] = 3
@@ -11,10 +13,9 @@ if 5 in num:
 else:
     print('Não encontrei')
 print(num)
+valores.append(5)
 print('Essa lista tem %d números' % len(num))
 
-valores = []
-valores.append(5)
 valores.append(9)
 valores.append(4)
 '''
