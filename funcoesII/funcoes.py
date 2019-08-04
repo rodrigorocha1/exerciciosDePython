@@ -38,5 +38,5 @@ def somar(a, b, c=0):
     return s
 
 
-somar(3, 4, 5)
-somar(8, 2)
+resp = somar(3, 2, 5)
+print(resp)
